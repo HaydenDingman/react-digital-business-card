@@ -13,7 +13,6 @@ function App() {
       <About />
       <Interests />
       <Footer />
-      <DarkMode />
     </>
   )
 }
