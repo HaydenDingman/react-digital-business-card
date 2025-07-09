@@ -2,7 +2,7 @@ function Interests() {
     return(
         <section className="interests-section width-container">
             <h3>Interests</h3>
-            <p>Learning to code all day every day makes Jack a dull boy.</p>
+            <p>Motorcycles. Burritos. Kentucky Route Zero. Running. Phone photography. Tattoos. The promise that life can go on no matter how bad our losses.</p>
         </section>
     )
 }
