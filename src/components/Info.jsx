@@ -2,7 +2,7 @@ function Info() {
     return(
         <section>
             <div className="info-section width-container">
-                <img className="avatar" src="src/assets/avatar.jpg" />
+                <img className="avatar" src="avatar.jpg" />
                 <h1 className="name">Hayden Dingman</h1>
                 <h2 className="job-title">Writer / Developer</h2>
                 <a className="website" href="http://www.haydendingman.com">www.haydendingman.com</a>
