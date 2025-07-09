@@ -1,9 +1,96 @@
 * {
   box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: #23252C;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 30vw;
+  margin: 5em 0;
+}
+
+section,
+.footer {
+  background-color: #1A1B21;
+}
+
+.info-section {
+  text-align: center;
+}
+
+.avatar {
+  width: 25vw;
+  border-radius: 10px 10px 0 0;
+  
+}
+
+.name {
+  margin-bottom: 0.1em;
+}
+
+.job-title {
+  color: #18D63E;
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.website {
+  font-size: 0.75rem;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 2em;
+  margin: 1em 0;
+  justify-content: center;
+}
+
+.btn {
+  padding: .5em 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  border-radius: 6px;
+}
+
+.btn-icon {
+  width: 1em;
+}
+
+.btn-email {
+  background-color: #fff;
+  color: #374151;
+}
+
+.btn-linkedin {
+  background-color: #5093E2;
+}
+
+.btn:hover {
+  background-color: #374151;
+  color: #fff;
+  fill: #fff;
+}
+
+.li-icon {
+  fill: #fff;
 }
