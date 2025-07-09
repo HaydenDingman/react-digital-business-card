@@ -23,8 +23,12 @@ a {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  width: 30vw;
   margin: 5em 0;
+}
+
+.width-container {
+  width: 25vw;
+  min-width: 350px;
 }
 
 section,
@@ -37,7 +41,7 @@ section,
 }
 
 .avatar {
-  width: 25vw;
+  width: 100%;
   border-radius: 10px 10px 0 0;
   
 }
@@ -57,10 +61,14 @@ section,
   font-size: 0.75rem;
 }
 
+.website:hover {
+  color: #18D63E;
+}
+
 .contact-buttons {
   display: flex;
   gap: 2em;
-  margin: 1em 0;
+  margin: 1em 0 2em;
   justify-content: center;
 }
 
@@ -93,4 +101,27 @@ section,
 
 .li-icon {
   fill: #fff;
+}
+
+.about-section,
+.interests-section {
+  padding: 0 2em;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0.5em;
+}
+
+section {
+  margin: 0;
+}
+
+footer {
+  background-color: #161619;
 }
